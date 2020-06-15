@@ -76,10 +76,9 @@ class App extends Component {
 
                	<div className="aside-footer">
                 	<ul className="list-unstyled list-inline">
-                        <li className="list-inline-item"><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                        <li className="list-inline-item"><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-                        <li className="list-inline-item"><a href="#"><i className="fab fa-stack-overflow"></i></a></li>
-                        <li className="list-inline-item"><a href="#"><i className="fab fa-dribbble"></i></a></li>
+                        <li className="list-inline-item"><a href="#"><i className="fa fa-facebook-f"></i></a></li>
+                        <li className="list-inline-item"><a href="#"><i className="fa fa-linkedin"></i></a></li>
+                        <li className="list-inline-item"><a href="#"><i className="fa fa-stack-overflow"></i></a></li>
                     </ul>
                 </div>
 	        </nav>
@@ -162,7 +161,7 @@ class App extends Component {
 												</Route>
 											</Switch>
 										</Router> */}
-										<i className="fas fa-download"></i>
+										<i className="fa fa-download"></i>
 										<span>Download CV</span>
 									</a>
 								</li>
@@ -187,7 +186,7 @@ class App extends Component {
 					<div className="col-sm-6 col-lg-6">
 						<div className="services-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s">
 							<div className="services-list-icon">
-								<i className="fas fa-paint-brush  "></i> 
+								<i className="fa fa-paint-brush  "></i> 
 								<span>01</span>
 							</div>
 							<div className="mt-4">
@@ -199,7 +198,7 @@ class App extends Component {
 					<div className="col-sm-6 col-lg-6">
 						<div className="services-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
 							<div className="services-list-icon">
-								<i className="fas fa-palette  "></i>
+								<i className="fa fa-palette  "></i>
 								<span>02</span>
 							</div>
 							<div className="mt-4">
