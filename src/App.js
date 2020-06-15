@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import './vendor.css';
 
+import Headshot from './images/headshot.jpg';
+
 class App extends Component {
   render() {
 
@@ -41,7 +43,7 @@ class App extends Component {
 
                 <div className="collapse navbar-collapse show" id="navbarCollapse">
                 	<div className="about-avatar mb-4">
-						<img src="./images/headshot.jpg" alt="" className="img-fluid mx-auto d-block shadow-sm rounded-full"/>
+						<img src={require('./images/headshot.jpg')} alt="" className="img-fluid mx-auto d-block shadow-sm rounded-full"/>
 					</div>
                     <ul className="navbar-nav mx-auto">
                         <li className="nav-item active">
@@ -187,53 +189,6 @@ class App extends Component {
 							</div>
 							<div className="mt-4">
 								<h5 className="mb-0">Data Analysis</h5>
-								<p className=" mt-3">Modern and mobile-ready website that will help of your marketing.</p>
-							</div>
-						</div>
-					</div>
-					<div className="col-sm-6 col-lg-6">
-						<div className="services-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
-							<div className="services-list-icon">
-								<i className="fas fa-compact-disc  "></i> 
-								<span>03</span>
-							</div>
-							<div className="mt-4">
-								<h5 className="mb-0">Media Marketing</h5>
-								<p className=" mt-3">Modern and mobile-ready website that will help of your marketing.</p>
-							</div>
-						</div>
-					</div>
-					<div className="col-sm-6 col-lg-6">
-						<div className="services-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
-							<div className="services-list-icon">
-								<i className="fa fa-puzzle-piece  " aria-hidden="true"></i> <span>04</span>
-							</div>
-							<div className="mt-4">
-								<h5 className="mb-0">Advetising</h5>
-								<p className=" mt-3">Modern and mobile-ready website that will help of your marketing.</p>
-							</div>
-						</div>
-					</div>
-					<div className="col-sm-6 col-lg-6">
-						<div className="services-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">
-							<div className="services-list-icon">
-								<i className="fa fa-gamepad  " aria-hidden="true"></i> 
-								<span>05</span>
-							</div>
-							<div className="mt-4">
-								<h5 className="mb-0">Game Development</h5>
-								<p className=" mt-3">Modern and mobile-ready website that will help of your marketing.</p>
-							</div>
-						</div>
-					</div>
-					<div className="col-sm-6 col-lg-6">
-						<div className="services-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".6s">
-							<div className="services-list-icon">
-								<i className="far fa-chart-bar  "></i> 
-								<span>06</span>
-							</div>
-							<div className="mt-4">
-								<h5 className="mb-0">Analytics</h5>
 								<p className=" mt-3">Modern and mobile-ready website that will help of your marketing.</p>
 							</div>
 						</div>
