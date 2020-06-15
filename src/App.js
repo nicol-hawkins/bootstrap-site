@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import './vendor.css';
 
 class App extends Component {
   render() {
@@ -40,7 +41,7 @@ class App extends Component {
 
                 <div className="collapse navbar-collapse show" id="navbarCollapse">
                 	<div className="about-avatar mb-4">
-						<img src="./images/headshot.jpg" style={{width: 20 + "vw", height: 20 + 'vh'}} alt="" className="img-fluid mx-auto d-block shadow-sm rounded-full"/>
+						<img src="./images/headshot.jpg" alt="" className="img-fluid mx-auto d-block shadow-sm rounded-full"/>
 					</div>
                     <ul className="navbar-nav mx-auto">
                         <li className="nav-item active">
@@ -87,7 +88,6 @@ class App extends Component {
 		{/* <!-- START: HOME -->		 */}
     	<section className="section-home " id="home">
     		<div className="glass">Nicol Hawkins</div>
-    		<img src="./images/galaxy.jpg" />
     		{/* <!-- particles.js container -->  */}
     		{/* <div id="particles-js"></div> */}
     	</section>	
@@ -103,13 +103,14 @@ class App extends Component {
 
 				<div className="row justify-content-center align-items-center">
 					<div className="col-md-5">
-						<img className="img-fluid img-thumbnail wow fadeInUp" data-wow-duration="1s" src="assets/images/avatar.jpg" alt="About Picture"/>
+						<img className="img-fluid img-thumbnail wow fadeInUp" data-wow-duration="1s" src="./images/headshot.jpg" alt="About Picture"/>
 					</div>
 					<div className="col-md-7">
 						<div className="about-desc wow fadeInUp" data-wow-duration="1s"  data-wow-delay="500ms">
 							<div className="about-desc-content">
-								<h1 className="font-weight-light">I'm Alice Joseph</h1>
-								<p className="mt-3 font-weight-light">Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum.</p>
+								<h1 className="font-weight-light">I'm Nicol Hawkins</h1>
+								<p className="mt-3 font-weight-light">Hi there. I'm a full-stack web developer with experience programming in JavaScript, React, Redux, Node.js, Python, Django, HTML/CSS, SQL and Postgres. I chose the path of software engineering because it suits my musical and creative skills, as well as my passion for logic and mathematics. Not only is software programming complementary to my other creative pursuits, it gives me a great deal to work towards as I continue developing my learning styles to adapt to new technologies.
+                  My interests include writing and recording music with Reaper in my home studio, herbalism, gardening, yoga and programming.</p>
 							</div>
 
 							<div className="about-desc-more text-left b-box mt-3">
@@ -117,19 +118,13 @@ class App extends Component {
 									<div className="col-md-6">
 										<div className="about-desc-info">
 											<b>From :</b>
-											<span>Miami, FL</span>
+											<span>Oakland, CA</span>
 										</div>
 									</div>
 									<div className="col-md-6">
 										<div className="about-desc-info">
-											<b>Age :</b>
-											<span>19</span>
-										</div>
-									</div>
-									<div className="col-md-6">
-										<div className="about-desc-info">
-											<b>Phone :</b>
-											<a href="tel:0987654321">098-765-4321</a>
+											<b>Portfolio :</b>
+											<a href="https://github.com/nicol-hawkins">github.com/nicol-hawkins</a>
 										</div>
 									</div>
 									<div className="col-md-6">
@@ -586,23 +581,6 @@ class App extends Component {
 		</section>
 		{/* <!-- END: TESTIMONY -->
 
-		<!-- START: CTA --> */}
-		<section className="section section-freelance section-light text-center ">
-			<div className="container">
-				<div className="row">
-					<div className="col-lg-12">
-						<div className="section-head wow fadeInUp" data-wow-duration="1.5s">
-							<h2>Let's work together!</h2>
-						</div>
-						<div className="mt-5 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
-							<a href="#" className="btn hover-state">Hire Me!</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		{/* <!-- END: CTA -->
-
 		<!-- START: BLOG --> */}
 		<section className="section section-dark section-blog" id="blog">
 			<div className="container">   
@@ -689,87 +667,7 @@ class App extends Component {
 		{/* <!-- END: BLOG -->
 
 		<!-- START: CONTACT --> */}
-		<section className="section section-light section-contact" id="contact">
-			<div className="container">
-				<div className="section-head">
-					<span>say Hello</span>
-					<h2>Contact </h2>
-				</div>
-
-				<div className="contact-map mt-5">
-					<h5 className="section-subHead mb-4"> My Location</h5>
-					<div className="contact-map--container b-box wow fadeInUp" id="map" data-wow-duration="1.5s"></div>
-				</div>
-			</div>
-
-			<div className="contact-Otherdetails section-dark">
-				<div className="container">
-					<div className="contact-details mt-5">
-						<h5 className="section-subHead pt-5 mb-4"> Get in Touch</h5>
-						<div className="row">
-							<div className="col-sm-6 col-lg-6">
-								<div className="contact-details--panel p-4 b-box text-center hover-state wow fadeInUp" data-wow-duration="1.5s">
-									<div className="mb-3">
-										<i className="fas fa-mobile-alt  "></i>
-									</div>
-									<div className="mt-2">
-										<a href="tel:9876543210" className="">+987 654 3210</a>
-										<p className="mt-2">Call Us</p>
-									</div>
-								</div>
-							</div>
-							<div className="col-sm-6 col-lg-6">
-								<div className="contact-details--panel p-4 b-box text-center hover-state wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
-									<div className="mb-3">
-										<i className="fas fa-envelope  "></i>
-									</div>
-									<div className="mt-2">
-										<a href="mailto:hello@beingeorge.com">hello@beingeorge.com</a>
-										<p className="mt-2">Email Us</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="contact-form mt-5">
-						<form>
-							<h5 className="section-subHead mb-2"> Contact Form</h5>
-							<div className="row">
-								<div className="col-lg-6">
-									<div className="form-group mt-3 wow fadeInUp" data-wow-duration="1.5s">
-										<input name="name" id="name" type="text" className="form-control b-box" placeholder="Your Name*" required/>
-									</div>
-								</div>
-								<div className="col-lg-6">
-									<div className="form-group mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
-										<input name="email" id="email" type="email" className="form-control b-box" placeholder="Your Email*" required/>
-									</div>
-								</div>                                
-							</div>
-							<div className="row">
-								<div className="col-lg-12">
-									<div className="form-group mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
-										<input type="text" className="form-control b-box" id="subject" placeholder="Your Subject.." required/>
-									</div>
-								</div>
-							</div>
-							<div className="row">
-								<div className="col-lg-12">
-									<div className="form-group mt-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
-										<textarea name="comments" id="comments" rows="4" className="form-control b-box" placeholder="Your message..."></textarea>
-									</div>
-								</div>
-							</div>
-							<div className="row">
-								<div className="col-lg-12 text-center mt-4 mb-5  wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">
-									<a href="#" className="btn hover-state">Submit</a>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</section>
+	
 		{/* <!-- END: CONTACT -->
 
 		<!--START: FOOTER--> */}

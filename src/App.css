@@ -288,6 +288,7 @@ b, strong {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    color: #6e757b;
 }
 
 .section-light {
@@ -498,13 +499,13 @@ b, strong {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #fa1f55;
-    background: -moz-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
+    background: #1ffad5;
+    background: -moz-linear-gradient(45deg, rgb(99, 99, 99) 0%, #fd735a 100%);
     background: -webkit-gradient(left bottom, right top, color-stop(0%, #fa1f55), color-stop(100%, #fd735a));
-    background: -webkit-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-    background: -o-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-    background: -ms-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-    background: linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
+    background: -webkit-linear-gradient(45deg, rgb(99, 99, 99) 0%, #fd735a 100%);
+    background: -o-linear-gradient(45deg, rgb(99, 99, 99) 0%, #fd735a 100%);
+    background: -ms-linear-gradient(45deg, rgb(99, 99, 99) 0%, #fd735a 100%);
+    background: linear-gradient(45deg, rgb(99, 99, 99) 0%, #fd735a 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa1f55', endColorstr='#fd735a', GradientType=1 );
 }
 
@@ -648,6 +649,7 @@ b, strong {
     width: 160px;
     border: 2px outset #ed4242;
     padding: 10px;
+    background-image: url('./images/headshot.jpg');
 }
 
 .about-social a.downloadCV span {
@@ -693,6 +695,8 @@ b, strong {
 .img-thumbnail {
     background-color: #25252d;
     border: 1px solid rgba(255,255,255,.1);
+    width: 40vw;
+   
 }
 
 
