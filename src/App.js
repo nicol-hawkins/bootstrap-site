@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import $ from "jquery";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Router, Route, Link, Switch } from "react-router-dom";
 import './App.css';
@@ -7,9 +8,9 @@ import './vendor.css';
 import Headshot from './images/headshot.jpg';
 
 class App extends Component {
-  render() {
 
-  
+  render() {
+ 
   return (
     <div className="App">
       	{/* <!-- START: Preloader --> */}
@@ -76,9 +77,10 @@ class App extends Component {
 
                	<div className="aside-footer">
                 	<ul className="list-unstyled list-inline">
-                        <li className="list-inline-item"><a href="#"><i className="fa fa-facebook-f"></i></a></li>
-                        <li className="list-inline-item"><a href="#"><i className="fa fa-linkedin"></i></a></li>
-                        <li className="list-inline-item"><a href="#"><i className="fa fa-stack-overflow"></i></a></li>
+                        <li className="list-inline-item"><a href="https://www.facebook.com/tabitha.dillinger.9"><i className="fa fa-facebook"></i></a></li>
+                        <li className="list-inline-item"><a href="https://www.linkedin.com/in/nicol-hawkins/?trk=people-guest_profile-result-card_result-card_full-click"><i className="fa fa-linkedin"></i></a></li>
+						<li className="list-inline-item"><a href="https://github.com/nicol-hawkins"><i className="fa fa-github"></i></a></li>
+                        <li className="list-inline-item"><a href="https://stackoverflow.com/users/11810365/nicol-hawkins"><i className="fa fa-stack-overflow"></i></a></li>
                     </ul>
                 </div>
 	        </nav>
@@ -92,7 +94,7 @@ class App extends Component {
     	<section className="section-home " id="home">
     		<div className="glass">Nicol Hawkins</div>
     		{/* <!-- particles.js container -->  */}
-    		{/* <div id="particles-js"></div> */}
+    		<div id="particles-js"></div>
     	</section>	
     	{/* <!-- END: HOME --> */}
 
@@ -130,22 +132,10 @@ class App extends Component {
 									</div>
 									<div className="col-md-6">
 										<div className="about-desc-info">
-											<b>Portfolio :</b>
-											<a href="https://github.com/nicol-hawkins">github.com/nicol-hawkins</a>
-										</div>
-									</div>
-									<div className="col-md-6">
-										<div className="about-desc-info">
 											<b>Email :</b>
 											<a href="mailto:hello@beingeorge.com">nicolchawkins@gmail.com</a>
 										</div>
-									</div>
-                  					<div className="col-md-6">
-										<div className="about-desc-info">
-											<b>Linkedin :</b>
-											<a href="https://www.linkedin.com/in/nicol-hawkins/?trk=people-guest_profile-result-card_result-card_full-click">linkedin/nicol-hawkins</a>
-										</div>
-									</div>									
+									</div>								
 								</div>
 							</div>
 
@@ -186,7 +176,7 @@ class App extends Component {
 					<div className="col-sm-6 col-lg-6">
 						<div className="services-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s">
 							<div className="services-list-icon">
-								<i className="fa fa-paint-brush  "></i> 
+								<i className="fa fa-desktop"></i> 
 								<span>01</span>
 							</div>
 							<div className="mt-4">
@@ -198,11 +188,23 @@ class App extends Component {
 					<div className="col-sm-6 col-lg-6">
 						<div className="services-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
 							<div className="services-list-icon">
-								<i className="fa fa-palette  "></i>
+								<i className="fa fa-database"></i>
 								<span>02</span>
 							</div>
 							<div className="mt-4">
 								<h5 className="mb-0">Data Analysis</h5>
+								<p className=" mt-3">Modern and mobile-ready website that will help of your marketing.</p>
+							</div>
+						</div>
+					</div>
+					<div className="col-sm-6 col-lg-6">
+						<div className="services-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
+							<div className="services-list-icon">
+								<i className="fa fa-phone"></i>
+								<span>02</span>
+							</div>
+							<div className="mt-4">
+								<h5 className="mb-0">Customer Service</h5>
 								<p className=" mt-3">Modern and mobile-ready website that will help of your marketing.</p>
 							</div>
 						</div>
@@ -350,126 +352,42 @@ class App extends Component {
 			<div className="container swiper-container swiper-portfolio wow fadeInUp" data-wow-duration="1.5s">
 				<div className=" swiper-wrapper mt-5">
 					<div className="portfolio-item swiper-slide " data-groups="all slideshow">
-						<a href="assets/images/p1-1.jpg" className="portfolio-item--content simple-ajax-popup">
+						<a href="https://herbal-antidote.herokuapp.com/" className="portfolio-item--content simple-ajax-popup">
 							<div className="portfolio-item--img b-box">
-								<img src="assets/images/p1-1.jpg" className="img-fluid mx-auto" alt="work-img"/>
+								<img src={require('./images/herbal-antidote.png')} className="img-fluid mx-auto" alt="work-img"/>
 							</div>
 							<div className="portfolio-item--desc d-flex justify-content-center align-items-center">
 								<div className="portfolio-item--desc-in">
-									<h3 className="mb-2 text-white">The wall</h3>
-									<p className="text-white">Slideshow</p>
+									<h3 className="mb-2 text-white">Herbal Antidote</h3>
+									<p className="text-white">A quiz built using python to generate recommendations for herbal remedies based on common ailments.</p>
 								</div>
 							</div>
 						</a>
 					</div>
 
 					<div className="portfolio-item swiper-slide image" data-groups="all image">
-						<a href="assets/images/p2-2.jpg" className="portfolio-item--content simple-ajax-popup">
+						<a href="https://south-american-forests.herokuapp.com/" className="portfolio-item--content simple-ajax-popup">
 							<div className="portfolio-item--img b-box">
-								<img src="assets/images/p2-2.jpg" className="img-fluid mx-auto" alt="work-img"/>
+								<img src={require('./images/react-graph.png')} className="img-fluid mx-auto" alt="work-img"/>
 							</div>
 							<div className="portfolio-item--desc d-flex justify-content-center align-items-center">
 								<div className="portfolio-item--desc-in">
-									<h3 className="mb-2 text-white">The wall</h3>
-									<p className="text-white">Slideshow</p>
+									<h3 className="mb-2 text-white">React Graph</h3>
+									<p className="text-white">An interactive react bar-chart displaying percentages of forest land in South American countries by year.</p>
 								</div>
 							</div>
 						</a>
 					</div>
 
 					<div className="portfolio-item swiper-slide slideshow" data-groups="all slideshow">
-						<a href="assets/images/p3-3.jpg" className="portfolio-item--content simple-ajax-popup">
+						<a href="http://the-scratchpost.herokuapp.com/projects/" className="portfolio-item--content simple-ajax-popup">
 							<div className="portfolio-item--img b-box">
-								<img src="assets/images/p3-3.jpg" className="img-fluid mx-auto" alt="work-img"/>
+								<img src={require('./images/the-scratchpost.png')} className="img-fluid mx-auto" alt="work-img"/>
 							</div>
 							<div className="portfolio-item--desc d-flex justify-content-center align-items-center">
 								<div className="portfolio-item--desc-in">
-									<h3 className="mb-2 text-white">The wall</h3>
-									<p className="text-white">Slideshow</p>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div className="portfolio-item swiper-slide video" data-groups="all video">
-						<a href="assets/images/p4-4.jpg" className="portfolio-item--content simple-ajax-popup">
-							<div className="portfolio-item--img b-box">
-								<img src="assets/images/p4-4.jpg" className="img-fluid mx-auto" alt="work-img"/>
-							</div>
-							<div className="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div className="portfolio-item--desc-in">
-									<h3 className="mb-2 text-white">The wall</h3>
-									<p className="text-white">Slideshow</p>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div className="portfolio-item swiper-slide  slideshow" data-groups="all slideshow">
-						<a href="assets/images/p5-5.jpg" className="portfolio-item--content simple-ajax-popup">
-							<div className="portfolio-item--img b-box">
-								<img src="assets/images/p5-5.jpg" className="img-fluid mx-auto" alt="work-img"/>
-							</div>
-							<div className="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div className="portfolio-item--desc-in">
-									<h3 className="mb-2 text-white">The wall</h3>
-									<p className="text-white">Slideshow</p>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div className="portfolio-item swiper-slide image" data-groups="all image">
-						<a href="assets/images/p6-6.jpg" className="portfolio-item--content simple-ajax-popup">
-							<div className="portfolio-item--img b-box">
-								<img src="assets/images/p6-6.jpg" className="img-fluid mx-auto" alt="work-img"/>
-							</div>
-							<div className="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div className="portfolio-item--desc-in">
-									<h3 className="mb-2 text-white">The wall</h3>
-									<p className="text-white">Slideshow</p>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div className="portfolio-item swiper-slide video" data-groups="all video">
-						<a href="assets/images/p7-7.jpg" className="portfolio-item--content simple-ajax-popup">
-							<div className="portfolio-item--img b-box">
-								<img src="assets/images/p7-7.jpg" className="img-fluid mx-auto" alt="work-img"/>
-							</div>
-							<div className="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div className="portfolio-item--desc-in">
-									<h3 className="mb-2 text-white">The wall</h3>
-									<p className="text-white">Slideshow</p>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div className="portfolio-item swiper-slide  slideshow" data-groups="all slideshow">
-						<a href="assets/images/p8-8.jpg" className="portfolio-item--content simple-ajax-popup">
-							<div className="portfolio-item--img b-box">
-								<img src="assets/images/p8-8.jpg" className="img-fluid mx-auto" alt="work-img"/>
-							</div>
-							<div className="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div className="portfolio-item--desc-in">
-									<h3 className="mb-2 text-white">The wall</h3>
-									<p className="text-white">Slideshow</p>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					<div className="portfolio-item swiper-slide image" data-groups="all image">
-						<a href="assets/images/p9-9.jpg" className="portfolio-item--content simple-ajax-popup">
-							<div className="portfolio-item--img b-box">
-								<img src="assets/images/p9-9.jpg" className="img-fluid mx-auto" alt="work-img"/>
-							</div>
-							<div className="portfolio-item--desc d-flex justify-content-center align-items-center">
-								<div className="portfolio-item--desc-in">
-									<h3 className="mb-2 text-white">The wall</h3>
-									<p className="text-white">Slideshow</p>
+									<h3 className="mb-2 text-white">The ScratchPost</h3>
+									<p className="text-white">A minimalist beatsheet organizer for screenwriters and creatives.</p>
 								</div>
 							</div>
 						</a>
@@ -479,6 +397,9 @@ class App extends Component {
 				<div className="portfolio-pagination">
 					
 				</div>
+
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
 			</div>
 		</section>
 		{/* <!--END: WORK -->
@@ -646,6 +567,7 @@ class App extends Component {
 		</footer>
 		{/* <!--END: FOOTER--> */}
 	</div>
+	
 
     </div>
   );
