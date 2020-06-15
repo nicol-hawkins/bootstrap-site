@@ -526,7 +526,7 @@ b, strong {
 .section-home {
     height: 100vh;
     position: relative;
-    /* background-image: url("../images/banner.jpg"); */
+    background-image: url("./images/galaxy.jpg");
     background-size: cover;
     background-position: center;
 }
