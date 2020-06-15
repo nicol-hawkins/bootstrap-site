@@ -130,10 +130,15 @@ class App extends Component {
 									<div className="col-md-6">
 										<div className="about-desc-info">
 											<b>Email :</b>
-											<a href="mailto:hello@beingeorge.com">hello@beingeorge.com</a>
+											<a href="mailto:hello@beingeorge.com">nicolchawkins@gmail.com</a>
 										</div>
 									</div>
-									
+                  <div className="col-md-6">
+										<div className="about-desc-info">
+											<b>Linkedin :</b>
+											<a href="https://www.linkedin.com/in/nicol-hawkins/?trk=people-guest_profile-result-card_result-card_full-click">linkedin/nicol-hawkins</a>
+										</div>
+									</div>									
 								</div>
 							</div>
 
@@ -169,7 +174,7 @@ class App extends Component {
 								<span>01</span>
 							</div>
 							<div className="mt-4">
-								<h5 className="mb-0">Graphic Design</h5>
+								<h5 className="mb-0">Web Development</h5>
 								<p className=" mt-3">Modern and mobile-ready website that will help of your marketing.</p>
 							</div>
 						</div>
@@ -181,7 +186,7 @@ class App extends Component {
 								<span>02</span>
 							</div>
 							<div className="mt-4">
-								<h5 className="mb-0">Web Development</h5>
+								<h5 className="mb-0">Data Analysis</h5>
 								<p className=" mt-3">Modern and mobile-ready website that will help of your marketing.</p>
 							</div>
 						</div>
@@ -248,51 +253,45 @@ class App extends Component {
 
 				<div className="row mt-4">
 					<div className="col-sm-6 col-lg-6">
-						<h5 className="section-subHead mt-3"> My Experience</h5>
+						<h5 className="section-subHead mt-3"> Experience</h5>
 						<div className="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s">
 							<div>
-								<h5>Senior Architect</h5>
-								<h6 className="badge badge-dark d-inline-block my-3">2015 - Present | Google</h6>
-								<p>Collaborate with creative and development teams on the execution of ideas.</p>
-							</div>
-						</div>
-						<div className="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
-							<div>
-								<h5>Front-end Developer</h5>
-								<h6 className="badge badge-dark d-inline-block my-3">2013 - 2015 | Facebook Inc.</h6>
-								<p>Collaborate with creative and development teams on the execution of ideas.</p>
-							</div>
-						</div>
-						<div className="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
-							<div>
-								<h5>UI Developer</h5>
-								<h6 className="badge badge-dark d-inline-block my-3">2011 - 2013 | Envato.</h6>
-								<p>Collaborate with creative and development teams on the execution of ideas.</p>
+								<h5>Data Analyst Intern</h5>
+								<h6 className="badge badge-dark d-inline-block my-3">2018 | Peralta Genomics Lab</h6>
+                				<p>
+									<ul>
+										<br/>
+										<li>
+										- Assisted with query preparations for amphibian DNA sequences in FASTA format to prep assembly of data pipelines using PERL.
+										</li>
+										<br/>
+										<li>
+										- Parsed DNA for gene translation by assembling reads for each gene in order to detect and exclude genetic duplicates.
+										</li>
+										<br/>
+										<li>
+										- Used Python functions and dictionaries to mine and compile nucleotide sequences according to stop codons to collect specific segments of genes.
+										</li>
+									</ul>
+								</p>
 							</div>
 						</div>
 					</div>
 
 					<div className="col-sm-6 col-lg-6">
-						<h5 className="section-subHead mt-3"> My Education</h5>
+						<h5 className="section-subHead mt-3"> Education</h5>
 						<div className="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s">
 							<div>
-								<h5>Master in Arts</h5>
-								<h6 className="badge badge-dark d-inline-block my-3">2006-2008</h6>
-								<p>Collaborate with creative and development teams on the execution of ideas.</p>
+								<h5>Associate of Science: Natural Sciences</h5>
+								<h6 className="badge badge-dark d-inline-block my-3">2016-2018</h6>
+								<p>Merrit College - Oakland, CA</p>
 							</div>
 						</div>
 						<div className="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
 							<div>
-								<h5>Art University</h5>
-								<h6 className="badge badge-dark d-inline-block my-3">2006-2008</h6>
-								<p>Collaborate with creative and development teams on the execution of ideas.</p>
-							</div>
-						</div>
-						<div className="resume-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
-							<div>
-								<h5>Art University</h5>
-								<h6 className="badge badge-dark d-inline-block my-3">2006-2008</h6>
-								<p>Collaborate with creative and development teams on the execution of ideas.</p>
+								<h5>Web Apprentice: Full-Stack Software Development</h5>
+								<h6 className="badge badge-dark d-inline-block my-3">2019-2020</h6>
+								<p>Kickstart Coding - Oakland, CA</p>
 							</div>
 						</div>
 					</div>
@@ -300,32 +299,32 @@ class App extends Component {
 
 				<div className="row mt-4">
 					<div className="col-sm-6 col-lg-6">
-						<h5 className="section-subHead mt-3"> Design Skills</h5>
+						<h5 className="section-subHead mt-3"> Front-End Skills</h5>
 						<div className="resume-panel b-box hover-state p-4 mt-3">
 
 							<div className="mb-4 wow fadeInUp"  data-wow-duration="1.5s">
-								<h6>Graphic Design </h6>
+								<h6>Javascript</h6>
 								<div className="progress mt-2" style={{height: 7 + 'px'}}>
 									<div className="progress-bar" role="progressbar" style={{width: 95 + '%'}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 
 							<div className="mb-4 wow fadeInUp"  data-wow-duration="1.5s" data-wow-delay=".2s">
-								<h6>Logo Design</h6>
+								<h6>React</h6>
 								<div className="progress mt-2" style={{height: 7+ 'px'}}>
 									<div className="progress-bar" role="progressbar" style={{width: 75 + '%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 
 							<div className="mb-4 wow fadeInUp"  data-wow-duration="1.5s" data-wow-delay=".3s">
-								<h6>Logo Design</h6>
+								<h6>Redux</h6>
 								<div className="progress mt-2" style={{height: 7 + 'px'}}>
 									<div className="progress-bar" role="progressbar" style={{width: 85+ '%'}} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 
 							<div className="mb-0 wow fadeInUp"  data-wow-duration="1.5s" data-wow-delay=".4s">
-								<h6>Photoshop & Figma</h6>
+								<h6>HTML/CSS</h6>
 								<div className="progress mt-2" style={{height: 7 + 'px'}}>
 									<div className="progress-bar" role="progressbar" style={{width: 80 + '%'}} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
@@ -334,31 +333,31 @@ class App extends Component {
 						</div>
 					</div>
 					<div className="col-sm-6 col-lg-6">
-						<h5 className="section-subHead mt-3"> Coding Skills</h5>
+						<h5 className="section-subHead mt-3"> Back-End Skills</h5>
 						<div className="resume-list b-box hover-state p-4 mt-3">
 							<div className="mb-4 wow fadeInUp" data-wow-duration="1.5s">
-								<h6>RWD</h6>
+								<h6>Python</h6>
 								<div className="progress mt-2" style={{height: 7 + 'px'}}>
 									<div className="progress-bar" role="progressbar" style={{width: 90 + '%'}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 
 							<div className="mb-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
-								<h6>Bootstrap</h6>
+								<h6>Django</h6>
 								<div className="progress mt-2" style={{height: 7 + 'px'}}>
 									<div className="progress-bar" role="progressbar" style={{width: 85 + '%'}} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 
 							<div className="mb-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".3s">
-								<h6>Jekyll</h6>
+								<h6>Git</h6>
 								<div className="progress mt-2" style={{height: 7 + "px"}}>
 									<div className="progress-bar" role="progressbar" style={{width: 70 + "%"}} aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 
 							<div className="mb-0 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
-								<h6>Javascript</h6>
+								<h6>SQL</h6>
 								<div className="progress mt-2" style={{height: 7 + 'px'}}>
 									<div className="progress-bar" role="progressbar" style={{width: 85 +'%'}} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
@@ -376,7 +375,7 @@ class App extends Component {
 			<div className="container">
 				<div className="section-head text-center">
 					<span>Portfolio</span>
-					<h2>My Works</h2>
+					<h2>My Projects</h2>
 				</div>
 			</div>
 			<div className="container swiper-container swiper-portfolio wow fadeInUp" data-wow-duration="1.5s">
