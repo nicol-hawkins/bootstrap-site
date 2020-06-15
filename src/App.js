@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Router, Route, Link, Switch } from "react-router-dom";
 import './App.css';
 import './vendor.css';
 
@@ -105,14 +107,18 @@ class App extends Component {
 
 				<div className="row justify-content-center align-items-center">
 					<div className="col-md-5">
-						<img className="img-fluid img-thumbnail wow fadeInUp" data-wow-duration="1s" src="./images/headshot.jpg" alt="About Picture"/>
+						<img className="img-fluid img-thumbnail wow fadeInUp" data-wow-duration="1s" src={require("./images/headshot.jpg")} alt="About Picture"/>
 					</div>
 					<div className="col-md-7">
 						<div className="about-desc wow fadeInUp" data-wow-duration="1s"  data-wow-delay="500ms">
 							<div className="about-desc-content">
 								<h1 className="font-weight-light">I'm Nicol Hawkins</h1>
-								<p className="mt-3 font-weight-light">Hi there. I'm a full-stack web developer with experience programming in JavaScript, React, Redux, Node.js, Python, Django, HTML/CSS, SQL and Postgres. I chose the path of software engineering because it suits my musical and creative skills, as well as my passion for logic and mathematics. Not only is software programming complementary to my other creative pursuits, it gives me a great deal to work towards as I continue developing my learning styles to adapt to new technologies.
-                  My interests include writing and recording music with Reaper in my home studio, herbalism, gardening, yoga and programming.</p>
+								<p className="mt-3 font-weight-light">
+									Hi there. I'm a full-stack web developer with experience programming in JavaScript, React, Redux, Node.js, Python, Django, HTML/CSS, SQL and Postgres. 
+									I chose the path of software engineering because I have a passion for creative problem solving. 
+									Web development gives me challenging milestones to work towards as I continue adapting to new technologies.
+                  					My interests include writing and recording music in my home studio, gardening, yoga and programming.
+								</p>
 							</div>
 
 							<div className="about-desc-more text-left b-box mt-3">
@@ -135,7 +141,7 @@ class App extends Component {
 											<a href="mailto:hello@beingeorge.com">nicolchawkins@gmail.com</a>
 										</div>
 									</div>
-                  <div className="col-md-6">
+                  					<div className="col-md-6">
 										<div className="about-desc-info">
 											<b>Linkedin :</b>
 											<a href="https://www.linkedin.com/in/nicol-hawkins/?trk=people-guest_profile-result-card_result-card_full-click">linkedin/nicol-hawkins</a>
@@ -146,7 +152,16 @@ class App extends Component {
 
 							<ul className="about-social mb-0 list-inline mt-4">
 								<li className="list-inline-item">
-									<a href="#" className="btn downloadCV hover-state">
+									<a href="#" className="btn-dl downloadCV hover-state">
+
+										{/* <Router>
+											<Link to="../public/files/Nicol_Hawkins_Resume.pdf" target="_blank" download>Download</Link>
+											<Switch>
+												<Route path="../public/files/">
+													
+												</Route>
+											</Switch>
+										</Router> */}
 										<i className="fas fa-download"></i>
 										<span>Download CV</span>
 									</a>

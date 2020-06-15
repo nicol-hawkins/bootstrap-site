@@ -216,10 +216,10 @@ b, strong {
     height: 100vh;
 }
 
-.btn {
+.btn-dl {
     padding: 12px 40px;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: bold;
     transition: all 0.5s;
     letter-spacing: 2px;
     color: #fff;
@@ -234,6 +234,8 @@ b, strong {
 .btn:hover {
     color: #fff;
     box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
+    
+    
 }
 
 .rounded-full {
@@ -687,6 +689,7 @@ b, strong {
 
 .about-desc-info b {
     padding-right: 10px;
+    color: white;
 }
 
 .about-desc-info span, 
