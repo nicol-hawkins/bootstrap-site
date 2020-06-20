@@ -553,6 +553,7 @@ class App extends Component {
 				</div>
 			</div>
 		</section>
+		
 		{/* <!-- END: BLOG -->
 
 		<!-- START: CONTACT --> */}
@@ -568,6 +569,7 @@ class App extends Component {
 		{/* <!--END: FOOTER--> */}
 	</div>
 	
+
 
     </div>
   );
