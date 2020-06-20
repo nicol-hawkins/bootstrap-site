@@ -1,14 +1,23 @@
 import React, { Component } from 'react';
-import $ from "jquery";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Router, Route, Link, Switch } from "react-router-dom";
 import './App.css';
 import './vendor.css';
 
-import Headshot from './images/headshot.jpg';
+// import Slide from './components/Slide/Slide';
+
 
 class App extends Component {
 
+	componentDidMount() {
+		
+		const script = document.createElement("script");
+		script.async = true;
+		script.src = "assets/js/jquery.ripples-min.js";
+			// For body
+		document.body.appendChild(script);
+		console.log('Ripple script loaded', script)
+
+	  }
+	  
   render() {
  
   return (
@@ -398,9 +407,16 @@ class App extends Component {
 					
 				</div>
 
-				<div class="swiper-button-prev"></div>
-				<div class="swiper-button-next"></div>
+				<div className="swiper-button-prev"></div>
+				<div className="swiper-button-next"></div>
 			</div>
+		</section>
+
+
+		<section className="section-dark">
+			<h1>Hiii</h1>
+
+
 		</section>
 		{/* <!--END: WORK -->
 
@@ -568,8 +584,6 @@ class App extends Component {
 		</footer>
 		{/* <!--END: FOOTER--> */}
 	</div>
-	
-
 
     </div>
   );
