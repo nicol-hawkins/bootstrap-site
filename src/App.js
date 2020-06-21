@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import './vendor.css';
+import './custom.css';
 
 import Carousel from 'react-bootstrap/Carousel'
 
@@ -365,31 +366,32 @@ class App extends Component {
 				</div>
 			</div>
 			<Carousel>
-  				<Carousel.Item>
+				<Carousel.Item>
 					<img
-					className="d-block w-100 portfolio-item--content simple-ajax-popup"
+					className="carousel-img img-fluid mx-auto portfolio-item--img"
 					src={require('./images/herbal-antidote.png')}
 					alt="First slide"
 					/>
 					<Carousel.Caption>
 						<h3>First slide label</h3>
-						<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+						<a href="https://herbal-antidote.herokuapp.com/" className="portfolio-item--content simple-ajax-popup">Demo</a>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img
-					className="d-block w-100"
+					className=" carousel-img img-fluid.mx-auto portfolio-item--img"
 					src={require('./images/react-graph.png')}
 					alt="Third slide"
 					/>
+				
 					<Carousel.Caption>
 						<h3>Second slide label</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					
 					</Carousel.Caption>
   			</Carousel.Item>
   			<Carousel.Item>
 					<img
-						className="d-block w-100"
+						className="carousel-img img-fluid.mx-auto portfolio-item--img"
 						src={require('./images/the-scratchpost.png')}
 						alt="Third slide"
 					/>

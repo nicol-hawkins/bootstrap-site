@@ -1,0 +1,13 @@
+.carousel-img {
+    border: 1px solid rgba(128, 128, 128, 0.801);
+    border-radius: .5%;
+    /* width: 60px; */
+    /* margin-left: 5vw;
+    margin-right: 5vw; */
+    height: 625px;
+    width: 1000px;
+    /* margin-left: 18vw;
+    margin-right: 5vw; */
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
