@@ -2,26 +2,32 @@ import React, { Component } from 'react';
 import './App.css';
 import './vendor.css';
 
-// import Slide from './components/Slide/Slide';
+import Carousel from 'react-bootstrap/Carousel'
 
 
 class App extends Component {
 
-	componentDidMount() {
-		
+	componentDidMount() {		
 		const script = document.createElement("script");
 		script.async = true;
+		// script.type = "text/jsx"
 		script.src = "assets/js/jquery.ripples-min.js";
 			// For body
 		document.body.appendChild(script);
+
 		console.log('Ripple script loaded', script)
 
 	  }
+
+	//   scriptLoaded() {
+	// 	A.sort();
+	//   }
 	  
   render() {
  
   return (
     <div className="App">
+		
       	{/* <!-- START: Preloader --> */}
 	{/* <div id="preloader" class="preloader">
 		<div class="spinner-grow text-dark" role="status">
@@ -358,6 +364,41 @@ class App extends Component {
 					<h2>My Projects</h2>
 				</div>
 			</div>
+			<Carousel>
+  				<Carousel.Item>
+					<img
+					className="d-block w-100 portfolio-item--content simple-ajax-popup"
+					src={require('./images/herbal-antidote.png')}
+					alt="First slide"
+					/>
+					<Carousel.Caption>
+						<h3>First slide label</h3>
+						<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+					</Carousel.Caption>
+				</Carousel.Item>
+				<Carousel.Item>
+					<img
+					className="d-block w-100"
+					src={require('./images/react-graph.png')}
+					alt="Third slide"
+					/>
+					<Carousel.Caption>
+						<h3>Second slide label</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</Carousel.Caption>
+  			</Carousel.Item>
+  			<Carousel.Item>
+					<img
+						className="d-block w-100"
+						src={require('./images/the-scratchpost.png')}
+						alt="Third slide"
+					/>
+					<Carousel.Caption>
+						<h3>Third slide label</h3>
+						<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    			</Carousel.Caption>
+  				</Carousel.Item>
+				</Carousel>
 			<div className="container swiper-container swiper-portfolio wow fadeInUp" data-wow-duration="1.5s">
 				<div className=" swiper-wrapper mt-5">
 					<div className="portfolio-item swiper-slide " data-groups="all slideshow">
