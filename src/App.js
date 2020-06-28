@@ -3,8 +3,6 @@ import './App.css';
 import './vendor.css';
 import './custom.css';
 
-// import Carousel from 'react-bootstrap/Carousel'
-
 import Carousel from "./Carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -31,23 +29,6 @@ class App extends Component {
  
   return (
     <div className="App">
-		
-      	{/* <!-- START: Preloader --> */}
-	{/* <div id="preloader" class="preloader">
-		<div class="spinner-grow text-dark" role="status">
-			<span class="sr-only">Loading...</span>
-		</div>
-	</div> */}
-	{/* <!-- END: Preloader --> */}
-
-	{/* <!-- START: Theme Switcher --> */}
-
-	{/* <div className="switcher">
-		<a href="#" data-theme="light" >deed</a>
-	</div> */}
-
-	{/* <!-- END: Theme Switcher --> */}
-
 	<aside className="aside">
 		{/* <!-- START: NAVBAR --> */}
 
@@ -386,15 +367,6 @@ class App extends Component {
 		
 		</section>
 		{/* <!--END: WORK -->
-
-		
-		
-		{/* <!-- END: BLOG -->
-
-		<!-- START: CONTACT --> */}
-	
-		{/* <!-- END: CONTACT -->
-
 		<!--START: FOOTER--> */}
 		<footer className="footer section section-light">
 			<div className="container">
