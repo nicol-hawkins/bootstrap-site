@@ -8,8 +8,6 @@ import pdf from './files/resume.pdf';
 import Carousel from "./Carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import DownloadLink from "react-download-link";
-
 
 class App extends Component {
 
@@ -137,7 +135,7 @@ class App extends Component {
 									<div className="col-md-6">
 										<div className="about-desc-info">
 											<b>Email :</b>
-											<a href="mailto:hello@beingeorge.com">nicolchawkins@gmail.com</a>
+											<a href="mailto:nicolchawkins@gmail.com">nicolchawkins@gmail.com</a>
 										</div>
 									</div>								
 								</div>
