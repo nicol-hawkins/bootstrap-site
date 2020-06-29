@@ -145,9 +145,9 @@ class App extends Component {
 
 							<ul className="about-social mb-0 list-inline mt-4">
 								<li className="list-inline-item">
-									<a href={pdf} className="btn-dl downloadCV hover-state">
+									<a href={pdf} role="button" download="nicol_hawkins_resume" className="btn-dl downloadCV hover-state">
 										<i className="fa fa-download"></i>
-										<span>Download CV</span>										
+										<span>Download CV</span>																			
 									</a>
 								</li>
 							</ul> 
@@ -284,7 +284,7 @@ class App extends Component {
 							<div className="mb-4 wow fadeInUp"  data-wow-duration="1.5s">
 								<h6>Javascript</h6>
 								<div className="progress mt-2" style={{height: 7 + 'px'}}>
-									<div className="progress-bar" role="progressbar" style={{width: 95 + '%'}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+									<div className="progress-bar" role="progressbar" style={{width: 75 + '%'}} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 
@@ -298,14 +298,14 @@ class App extends Component {
 							<div className="mb-4 wow fadeInUp"  data-wow-duration="1.5s" data-wow-delay=".3s">
 								<h6>Redux</h6>
 								<div className="progress mt-2" style={{height: 7 + 'px'}}>
-									<div className="progress-bar" role="progressbar" style={{width: 85+ '%'}} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+									<div className="progress-bar" role="progressbar" style={{width: 55+ '%'}} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 
 							<div className="mb-0 wow fadeInUp"  data-wow-duration="1.5s" data-wow-delay=".4s">
 								<h6>HTML/CSS</h6>
 								<div className="progress mt-2" style={{height: 7 + 'px'}}>
-									<div className="progress-bar" role="progressbar" style={{width: 80 + '%'}} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+									<div className="progress-bar" role="progressbar" style={{width: 85 + '%'}} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 
@@ -317,14 +317,14 @@ class App extends Component {
 							<div className="mb-4 wow fadeInUp" data-wow-duration="1.5s">
 								<h6>Python</h6>
 								<div className="progress mt-2" style={{height: 7 + 'px'}}>
-									<div className="progress-bar" role="progressbar" style={{width: 90 + '%'}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+									<div className="progress-bar" role="progressbar" style={{width: 60 + '%'}} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 
 							<div className="mb-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
 								<h6>Django</h6>
 								<div className="progress mt-2" style={{height: 7 + 'px'}}>
-									<div className="progress-bar" role="progressbar" style={{width: 85 + '%'}} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+									<div className="progress-bar" role="progressbar" style={{width: 70 + '%'}} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 
@@ -338,7 +338,7 @@ class App extends Component {
 							<div className="mb-0 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
 								<h6>SQL</h6>
 								<div className="progress mt-2" style={{height: 7 + 'px'}}>
-									<div className="progress-bar" role="progressbar" style={{width: 85 +'%'}} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+									<div className="progress-bar" role="progressbar" style={{width: 60 +'%'}} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 						</div>
