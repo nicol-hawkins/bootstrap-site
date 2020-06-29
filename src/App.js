@@ -181,7 +181,7 @@ class App extends Component {
 							</div>
 							<div className="mt-4">
 								<h5 className="mb-0">Web Development</h5>
-								<p className=" mt-3"> I'm interested in building large scalable front-end systems and care about crafting an elegant UI and user experience.</p>
+								<p className="mt-3"> I'm interested in building large scalable front-end systems and care about crafting an elegant UI and user experience.</p>
 							</div>
 						</div>
 					</div>
@@ -193,31 +193,32 @@ class App extends Component {
 							</div>
 							<div className="mt-4">
 								<h5 className="mb-0">Data Structures</h5>
-								<p className=" mt-3">I enjoy crafting code to implement complex data sets into striking visualizations.</p>
+								<p className="mt-3">I enjoy crafting code to implement complex data sets into striking visualizations.</p>
 							</div>
 						</div>
 					</div>
 					<div className="col-sm-6 col-lg-6">
 						<div className="services-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
 							<div className="services-list-icon">
-								<i className="fa fa-paint-brush"></i>
-								<span>02</span>
+								<i className="fa fa-palette" aria-hidden="true"></i>
+								{/* <i class="fa fa-magic" aria-hidden="true"></i> */}
+								<span>03</span>
 							</div>
 							<div className="mt-4">
 								<h5 className="mb-0">Creativity</h5>
-								<p className=" mt-3">Whether it's front-end design or dense backend code, I never shy from creative solutions.</p>
+								<p className="mt-3">Whether it's front-end design or dense backend code, I never shy from exploring creative solutions.</p>
 							</div>
 						</div>
 					</div>
 					<div className="col-sm-6 col-lg-6">
 						<div className="services-list b-box hover-state p-4 mt-4 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
 							<div className="services-list-icon">
-								<i className="fa fa-phone"></i>
-								<span>02</span>
+								<i className="fa fa-comments-o"></i>
+								<span>04</span>
 							</div>
 							<div className="mt-4">
-								<h5 className="mb-0">Multi-Tasking</h5>
-								<p className=" mt-3">Whether it's visual or logical, I never shy from experimenting</p>
+								<h5 className="mb-0">Team-Player</h5>
+								<p className="mt-3">As an effective communicator and careful listener, I enjoy the process of collaboration and learning from others.   </p>
 							</div>
 						</div>
 					</div>
