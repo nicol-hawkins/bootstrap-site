@@ -3,8 +3,12 @@ import './App.css';
 import './vendor.css';
 import './custom.css';
 
+import pdf from './files/resume.pdf';
+
 import Carousel from "./Carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+import DownloadLink from "react-download-link";
 
 
 class App extends Component {
@@ -141,18 +145,9 @@ class App extends Component {
 
 							<ul className="about-social mb-0 list-inline mt-4">
 								<li className="list-inline-item">
-									<a href="#" className="btn-dl downloadCV hover-state">
-
-										{/* <Router>
-											<Link to="../public/files/Nicol_Hawkins_Resume.pdf" target="_blank" download>Download</Link>
-											<Switch>
-												<Route path="../public/files/">
-													
-												</Route>
-											</Switch>
-										</Router> */}
+									<a href={pdf} className="btn-dl downloadCV hover-state">
 										<i className="fa fa-download"></i>
-										<span>Download CV</span>
+										<span>Download CV</span>										
 									</a>
 								</li>
 							</ul> 
