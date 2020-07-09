@@ -80,7 +80,7 @@ class App extends Component {
                	<div className="aside-footer">
                 	<ul className="list-unstyled list-inline">
                         <li className="list-inline-item"><a href="https://www.facebook.com/tabitha.dillinger.9"><i className="fa fa-facebook"></i></a></li>
-                        <li className="list-inline-item"><a href="https://www.linkedin.com/in/nicol-hawkins/?trk=people-guest_profile-result-card_result-card_full-click"><i className="fa fa-linkedin"></i></a></li>
+                        <li className="list-inline-item"><a href="https://www.linkedin.com/in/nicol-hawkins?trk=people-guest_profile-result-card_result-card_full-click"><i className="fa fa-linkedin"></i></a></li>
 						<li className="list-inline-item"><a href="https://github.com/nicol-hawkins"><i className="fa fa-github"></i></a></li>
                         <li className="list-inline-item"><a href="https://stackoverflow.com/users/11810365/nicol-hawkins"><i className="fa fa-stack-overflow"></i></a></li>
                     </ul>
