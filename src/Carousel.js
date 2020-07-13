@@ -22,5 +22,9 @@ export default () => (
       <img className="project-img" alt="to-do-list" src={require('./images/to-do-list.png')} />
       <h3 className="legend">To-Do List <a href="https://nicol-hawkins.github.io/vanilla-todo-list/">Demo</a></h3>
     </div>
+    <div>
+      <img className="project-img" alt="art-history-quiz" src={require('./images/art-history.png')} />
+      <h3 className="legend">Art History Quiz <a href="https://art-history-js-quiz.herokuapp.com/">Demo</a></h3>
+    </div>
   </Carousel>
 );
