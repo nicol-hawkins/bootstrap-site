@@ -28,7 +28,7 @@ export default () => (
     </div>
     <div>
       <img className="project-img" alt="art-history-quiz" src={require('./images/meme-generator.png')} />
-      <h3 className="legend">Meme Generator <a href="https://art-history-js-quiz.herokuapp.com/" target="_blank">Demo</a></h3>
+      <h3 className="legend">Meme Generator <a href="https://random-meme-maker.herokuapp.com/" target="_blank">Demo</a></h3>
     </div>
   </Carousel>
 );
