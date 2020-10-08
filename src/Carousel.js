@@ -11,7 +11,7 @@ export default () => (
       <h3 className="legend">Herbal Antidote <a href="https://herbal-antidote.herokuapp.com/" target="_blank">Demo</a></h3>
     </div>
     <div>
-      <img className="project-img" alt="react-graph" src={require('./images/react-graph.png')} />
+      <img className="project-img" alt="react-graph" src={require('./images/react-toggle.png')} />
       <h3 className="legend">React Graph <a href="https://stark-earth-03404.herokuapp.com/" target="_blank">Demo</a></h3>
     </div>
     <div>
